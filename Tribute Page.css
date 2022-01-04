@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+h1 {
+  color: CadetBlue;
+  font-family: "Raleway";
+  font-size: 45px;
+  text-align: center;
+  outline-style: outset;
+  max-width: 28%;
+  margin-top: 60px;
+  margin:  auto;
+  background-color: #fffaf0;
+  border-radius: 55px
+}
+div {
+  color: CadetBlue;
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  color: DarkSlateBlue;
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+}
+p2 {
+  color: CadetBlue;
+  font-family: "Noto Sans";
+  font-size: 20px;
+}
+ul {
+  color: DarkSlateBlue;
+  font-size: 18px;
+}
+p3 {
+  color: CadetBlue;
+  font-family: PT Sans Narrow;
+  font-size: 18px;
+}
+p4 {
+  color: CadetBlue;
+  font-family: PT Sans Narrow;
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 95%;
+  height: auto;
+  border: 3px solid CadetBlue;
+  border-radius: 55px
+}
+a{display: block;
+  outline-style: outset;
+  background-color: #fffaf0;
+  text-align: center;
+  margin: auto;
+  max-width: 300px;
+}

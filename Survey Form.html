@@ -1,0 +1,77 @@
+<header> <link rel="stylesheet" href="Survey Form.css" /></header>
+<body id= containment>
+    <header>
+      <h1 id="title">Warzone Poll </h1>
+      <h2> We are doing a small poll to check what are the tendencies of the warzone playerbase </h2>
+    </header>
+  
+    <form id="survey-form">
+  <br>
+      <div class="form-group">   
+        <p id="description"> Please, tell us about you first :D </p>
+        <label id="name-label" for="name">Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Your name goes here!" required />
+      </div>
+  
+      <div class="form-group">
+        <label id="email-label" for="email">E-mail</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="Your e-mail right here, please" required />
+      </div>
+  
+      <div class="form-group">
+        <label id="number-label" for="number">Number</label>
+        <input type="number" id="number" name="number" min="15" max="60" class="form-control" placeholder="And your number over here" />
+      </div>
+  
+     
+      <div class="form-group">
+         <p> Select your favourite gun type:</p>
+        <select name="Weapon-types" id="dropdown">
+          <option value="assault riffles">AR's</option>
+          <option value="submachine guns">SMG's</option>
+          <option value="sniper rifles">Snipers</option>
+          <option value="shotguns">Shotguns</option>
+        </select>
+      </div>
+  
+      
+  
+      <div class="form-group">
+        <p> Select a preferred game plan: </p>
+        <input type="radio" id="radio1" name="preferred-game-plan" value="w key all day">
+        <label for="w key all day">W key all day! PKM goes BRRRRRRRR!</label><br>
+        <input type="radio" id="radio2" name="preferred-game-plan" value="smart fights">
+        <label for="smart fights">I pick up every fight I can, but in a smart way</label><br>
+        <input type="radio" id="radio3" name="preferred-game-plan" value="no balls">
+        <label for="no balls">I will hide and camp as long as the zone allows me to</label>
+      </div>
+  
+      
+      <div class="form-group">
+        <p> Pick the 3 places where you die the most: </p>
+        <input type="checkbox" id="area1" name="Boneyard" value="Boneyard">
+        <label for="area1"> Boneyard</label><br>
+        <input type="checkbox" id="area2" name="Superstore" value="Superstore">
+        <label for="area2"> Superstore</label><br>
+        <input type="checkbox" id="area3" name="Rusty" value="Rusty">
+        <label for="area3"> Rusty</label><br>
+        <input type="checkbox" id="area4" name="TVStation" value="TVStation">
+        <label for="area4"> TV Station</label><br>
+        <input type="checkbox" id="area5" name="Storage" value="Storage">
+        <label for="area5"> Storage Town</label><br>
+        <input type="checkbox" id="area6" name="Promenade" value="Promenade">
+        <label for="area6"> Promenade</label><br>
+      </div>
+  
+      
+      <div class="form-group">
+        <p> Please leave us a comment about your thoughts on this new season: </p>
+        <textarea id="opinion" class="input-textarea" name="opinion" placeholder="Do not be shy... uwu"></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">SUBMIT
+        </button>
+      </div>
+    </form>
+  </body>
